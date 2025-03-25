@@ -31,15 +31,19 @@ User Listing Application
         python manage.py migrate
      Fetch users from random user api 
         python manage.py fetch_users
-     Start django server
+     Start django server in user_listing directory
         python manage.py runserver
     
   Frontend Setup (React)
-        Create Directory
-            cd user-listing-frontend
+        Create react app 
+            npx create-react-app user-listing-frontend
+        Create a new directory
+             cd user-listing-frontend
+        Install axios
+             npm install axios
         Install packages
             npm install
-        Start React developement server
+        Start React developement server in user-listing-frontend
             npm start
 
 # Usage
